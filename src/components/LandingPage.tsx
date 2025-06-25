@@ -868,6 +868,9 @@ function Footer() {
 						</div>
 					</div>
 
+					{/* Horizontal line*/}
+					<div className="border-t border-gray-700"></div>
+
 					{/* Large Decorative Brand Text */}
 					<div className="relative pb-6 flex justify-center items-center pointer-events-none select-none z-0">
 						<h1 className="text-5xl md:text-8xl lg:text-9xl font-black text-purple-500 opacity-20">NeoCompiler</h1>
