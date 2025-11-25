@@ -118,8 +118,8 @@ export default function LandingPage() {
 
 function Hero() {
 	return (
-		<section className="relative py-16 sm:py-20 px-4 overflow-hidden">
-			<div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-5 gap-4">
+		<section className="relative min-h-screen pb-20 flex items-center px-4 overflow-hidden">
+			<div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-5 gap-4 w-full">
 				{/* Left Content - 3/5 of the space using grid */}
 				<div className="lg:col-span-3 flex flex-col items-center text-center">
 					{/* Badge */}
